@@ -2,7 +2,7 @@
 
 echo "Copying files from the host to the container"
 #copy the dump file from the host to the container 
-docker cp /home/aziz/Desktop/DockerOracle/dmpTEST.dmp demo1:u01/app/oracle/admin/xe/dpdump
+docker cp /hostpath/dmpTEST.dmp demo1:u01/app/oracle/admin/xe/dpdump
 
 echo "Copying is successful"
 
