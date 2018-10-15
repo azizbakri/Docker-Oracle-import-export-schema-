@@ -6,6 +6,7 @@ This project contains three script files:
 * The second one export a schema into dump file on your host.  
 * The third one import a schema from your dump file to the database  
 
+**Note0:** The monitoring and deployment parts will be added soon.  
 **Note1:** Before running the export or import script you need to change the host path and the name of the dump file in the commands into your host path and your file name.  
 ## Prerequisites
 You need to install Docker on your machine. You can find it here https://www.docker.com
